@@ -1,4 +1,4 @@
 (in-package :stumpwm-settings)
 
 (defsetting stumpwm:*queue-messages-p*
-  :typespec '(or :new-on-bottom null t))
+  :typespec '(or (member :new-on-bottom) null t))
