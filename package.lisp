@@ -82,4 +82,6 @@
                 #:*mode-line-highlight-template*
                 #:*colors*
                 #:*remapped-keys-enabled-p*)
-  (:export #:*stumpwm-db*))
+  (:export #:*stumpwm-db*
+           #:customize
+           #:reset))
