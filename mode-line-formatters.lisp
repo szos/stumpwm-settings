@@ -8,7 +8,9 @@
         (every #'only-colors chars)))))
 
 (defsetting stumpwm:*hidden-window-color*
-  :validator 'string #| pure-color-string-p |# )
+  ;; :validator 'pure-color-string-p
+  :typespec 'string
+  )
 
 (defsetting stumpwm:*mode-line-highlight-template*
   :typespec 'string)
