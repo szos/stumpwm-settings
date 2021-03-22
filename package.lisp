@@ -84,4 +84,5 @@
                 #:*remapped-keys-enabled-p*)
   (:export #:*stumpwm-db*
            #:customize
-           #:reset))
+           #:reset
+           #:defsetting))
