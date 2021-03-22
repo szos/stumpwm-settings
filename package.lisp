@@ -85,4 +85,5 @@
   (:export #:*stumpwm-db*
            #:customize
            #:reset
-           #:defsetting))
+           #:defsetting
+           #:load-customized))

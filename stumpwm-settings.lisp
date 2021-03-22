@@ -21,6 +21,10 @@
                      collect `(defsetting ,variable :typespec ,typespec))))
     `(progn ,@forms)))
 
+(defun load-customized ()
+  (when (uiop:file-exists-p "~/.stumpwm.d/customize-variables.lisp")
+    (load "~/.stumpwm.d/customize-variables.lisp")))
+
 (defvar *customized-settings* nil)
 
 (defun customize (symbol value)
