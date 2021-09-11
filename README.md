@@ -8,5 +8,5 @@ your init file.
 
 ## License
 
-GPLv2
+GPLv3
 
